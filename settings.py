@@ -98,7 +98,8 @@ TEMPLATE_LOADERS = (
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     # default template context processors
-    'django.core.context_processors.auth',
+ #   'django.core.context_processors.auth',  deoreciated
+    'django.contrib.auth.context_processors.auth',
     'django.core.context_processors.debug',
     'django.core.context_processors.i18n',
     'django.core.context_processors.media',
